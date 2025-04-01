@@ -46,7 +46,7 @@ logservice/ # Django project (global settings)
 ### 1. Clone and Install
 
 ```bash
-git clone <your-repo-url>
+git clone [<your-repo-url>](https://github.com/rishabh-kr-jain/distributed-log-aggregator.git)
 cd logservice
 pip install django requests
 2. Start the Django Server

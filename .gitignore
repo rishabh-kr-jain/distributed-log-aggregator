@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django files
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Environment
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# macOS
+.DS_Store
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# Pytest
+.pytest_cache/
+.tox/
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Exported or generated files
+*.pdf
+*.zip
+*.tar.gz
